@@ -1,32 +1,21 @@
 # opendata-qa
-日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-This project provides a simple framework to create and publish open data Q&A content in Markdown format, which can be converted to JSON and HTML.
+A Web/Code project by [Code for FUKUI](https://github.com/code4fukui).
 
-## Features
-- Converts Markdown Q&A format to JSON and HTML
-- Provides a simple framework to create and publish open data Q&A content
+**Live demo**: https://code4fukui.github.io/opendata-qa/
 
-## Requirements
-- Deno runtime
+## Technology Stack
 
-## Usage
-1. Create a Markdown file with Q&A content in the format:
-```
-## Question 1
-Answer 1
 
-## Question 2 
-Answer 2
-```
-2. Run the `make.js` script to convert the Markdown to JSON and HTML:
-```
-deno run make.js
-```
-3. The script will generate a `.csv` and `.html` file from the input Markdown.
+## Installation & Setup
 
-## Data / API
-This project does not use any external data or APIs.
+No build step required. Clone the repository and open `index.html` in a browser,
+or visit the live demo at https://code4fukui.github.io/opendata-qa/
+
+## Contributing
+
+Contributions are welcome. Please open an issue or pull request on GitHub.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+
+MIT License. See [LICENSE](./LICENSE) for details.
